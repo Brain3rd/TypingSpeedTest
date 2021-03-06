@@ -222,7 +222,7 @@ class App:
 
 class Words:
 
-    with open('data/words.txt') as file:
+    with open('words.txt') as file:
         words = file.readlines()
         word_list = [word.strip() for word in words]
 
